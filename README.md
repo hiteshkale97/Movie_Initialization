@@ -26,3 +26,11 @@ http://localhost:8888/book?showId=1&userName=hitesh
 
 ---for cancel ticket -> delete method ->
 http://localhost:8888/cancel/{bookingId}
+
+---for get show for particular movie -> get method
+http://localhost:8888/{movieId}/shows
+
+--- for get all available movie -> get method
+http://localhost:8888/getAllMovies
+
+
