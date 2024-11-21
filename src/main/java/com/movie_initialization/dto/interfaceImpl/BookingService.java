@@ -25,8 +25,8 @@ public class BookingService implements BookingController {
     public String bookTicket(Long showId, String userName) {
         Show show = showRepository.findById(showId).orElseThrow(() -> new RuntimeException("Show not found"));
         if (show.getAvailableSeats() > 0) {
-            // Allocate seat
-            String seatNumber = "A" + (show.getTotalSeats() - show.getAvailableSeats() + 1); // Simple seat allocation logic
+            // Allocate seat logic
+            String seatNumber = "A" + (show.getTotalSeats() - show.getAvailableSeats() + 1); 
 
             // Create booking
             Booking booking = new Booking();
