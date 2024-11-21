@@ -1,7 +1,7 @@
 # Movie_Initialization
 Movie Initialization for mangoApp assignment
 
-"In this application, I have utilized MySQL as the database and Spring Boot for the backend development."
+"In this application, I have used MySQL as the database and Spring Boot for backend development to implement RESTful APIs."
 
 ---for save movie -> post method
 http://localhost:8888/saveMovie
